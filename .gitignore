@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Secrets lol
+gh-pages
+gh-pages.pub
