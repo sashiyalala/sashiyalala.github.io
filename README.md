@@ -20,7 +20,7 @@ website without your projects, open-source code, documentation, articles,...
 - The [Hugo Setup Action](https://github.com/marketplace/actions/hugo-setup) on the Github Action Marketplace.
   _Basically what automatically deploys my blog every time I push on `main`_.
 
-  - Big special mention for this Tip/Tutorial/Walk-through of how to make your
+  - Big special mention for [this Tip/Tutorial/Walk-through](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-first-deployment-with-github_token) of how to make your
     first deployment.
 
 - [CaiJimmy's Stack Hugo theme](https://github.com/CaiJimmy/hugo-theme-stack) _My current Hugo theme!_
