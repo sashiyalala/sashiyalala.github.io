@@ -11,12 +11,16 @@ if (file.exists("~/.Rprofile")) {
 # are a few sample options; for more options, see
 # https://bookdown.org/yihui/blogdown/global-options.html
 options(
-  # to automatically serve the site on RStudio startup, set this option to TRUE
+  # to automatically serve the site on RStudio start up, set this option to TRUE
   blogdown.serve_site.startup = FALSE,
   # to disable knitting Rmd files on save, set this option to FALSE
   blogdown.knit.on_save = TRUE,
   # build .Rmd to .html (via Pandoc); to build to Markdown, set this option to 'markdown'
-  blogdown.method = 'html'
+  blogdown.method = 'html',
+  # a default author
+  blogdown.author = 'sasha',
+  # To edit the website?? Taken from page 49 of "blogdown: Creating Websites with R Markdown"
+  servr.daemon = TRUE
 )
 
 # fix Hugo version
