@@ -6,3 +6,7 @@
 # Secrets lol
 gh-pages
 gh-pages.pub
+
+# Added after running blogdown::check_gitignore()
+.DS_Store
+Thumbs.db
