@@ -3,6 +3,16 @@
 .RData
 .Ruserdata
 
+# Big Folders that apparently don't need to stay here
+/public/
+/blogdown/
+
 # Secrets lol
 gh-pages
 gh-pages.pub
+
+# Added after running blogdown::check_gitignore()
+.DS_Store
+Thumbs.db
+content/post/2020-12-01-r-rmarkdown/index.en.html
+.gitignore
